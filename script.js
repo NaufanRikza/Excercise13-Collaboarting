@@ -18,6 +18,7 @@ switch (menu) {
     pengurangan();
   case "3":
     pembagian();
+    break;
   case "4":
     perkalian();
   default:
@@ -34,8 +35,14 @@ function penjumlahan() {
 function pembagian() {
   const angka1 = prompt("Masukkan angka pertama");
   const angka2 = prompt("Masukkan angka kedua");
-  const pengurangan = parsefloat(angka1) / parseFloat(angka2);
-  alert(`Pembagian dari ${angka1}/${angka2}=${pengurangan}`);
+  const pembagian = parseFloat(angka1) / parseFloat(angka2);
+  alert(`Pembagian dari ${angka1}/${angka2}=${pembagian}`);
 }
 
-
+function perkalian() {
+    const angka1 = prompt("Masukkan angka pertama");
+    const angka2 = prompt("Masukkan angka kedua");
+    const perkalian = parseInt(angka1) * parseInt(angka2);
+    alert(`Pembagian dari ${angka1}/${angka2}=${perkalian}`);
+  }
+  
