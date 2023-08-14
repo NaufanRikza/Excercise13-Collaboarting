@@ -16,6 +16,9 @@ switch (menu) {
     case "2":
             pengurangan();
             break;
+    case "5":
+        pangkat2();
+        break;
     default:
         alert('Masukan anda tidak terdapat pada menu')
 }
@@ -31,4 +34,10 @@ function pengurangan() {
     const x2 = prompt('Masukkan angka kedua');
     const result = parseInt(x1) - parseInt(x2);
     alert(`Pengurangan dari ${x1} - ${x2} = ${result}`);
+}
+
+function pangkat2() {
+    const a = prompt('Masukkan angka yang ingin dipangkatkan');
+    const hasilPangkat = parseInt(a) * parseInt(a);
+    alert(`Pangkat dua dari ${a} adalah ${hasilPangkat}`);
 }
