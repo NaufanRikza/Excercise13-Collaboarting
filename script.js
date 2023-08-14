@@ -13,6 +13,9 @@ switch (menu) {
     case "1":
         penjumlahan()
         break
+    case "2":
+            pengurangan();
+            break;
     default:
         alert('Masukan anda tidak terdapat pada menu')
 }
@@ -22,4 +25,10 @@ function penjumlahan() {
     const x2 = prompt('Masukkan angka kedua')
     const total = parseInt(x1) + parseInt(x2)
     alert(`Penjumlahan dari ${x1}+${x2}=${total}`)
+}
+function pengurangan() {
+    const x1 = prompt('Masukkan angka pertama');
+    const x2 = prompt('Masukkan angka kedua');
+    const result = parseInt(x1) - parseInt(x2);
+    alert(`Pengurangan dari ${x1} - ${x2} = ${result}`);
 }
