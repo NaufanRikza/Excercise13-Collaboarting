@@ -36,7 +36,6 @@ switch (menu) {
     alert("Masukan anda tidak terdapat pada menu");
 }
 
-
 function pembagian() {
   const angka1 = prompt("Masukkan angka pertama");
   const angka2 = prompt("Masukkan angka kedua");
@@ -74,4 +73,11 @@ function pangkat2() {
   const a = prompt("Masukkan angka yang ingin dipangkatkan");
   const hasilPangkat = parseInt(a) * parseInt(a);
   alert(`Pangkat dua dari ${a} adalah ${hasilPangkat}`);
+}
+
+function perkalian() {
+  const angka1 = prompt("Masukkan angka pertama");
+  const angka2 = prompt("Masukkan angka kedua");
+  const pengurangan = parseInt(angka1) * parseInt(angka2);
+  alert(`Pembagian dari ${angka1}/${angka2}=${pengurangan}`);
 }
