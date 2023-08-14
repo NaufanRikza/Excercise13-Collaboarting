@@ -38,11 +38,3 @@ function pembagian() {
   const pembagian = parseFloat(angka1) / parseFloat(angka2);
   alert(`Pembagian dari ${angka1}/${angka2}=${pembagian}`);
 }
-
-function perkalian() {
-    const angka1 = prompt("Masukkan angka pertama");
-    const angka2 = prompt("Masukkan angka kedua");
-    const perkalian = parseInt(angka1) * parseInt(angka2);
-    alert(`Pembagian dari ${angka1}/${angka2}=${perkalian}`);
-  }
-  
