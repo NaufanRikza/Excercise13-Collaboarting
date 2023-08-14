@@ -38,9 +38,4 @@ function pembagian() {
   alert(`Pembagian dari ${angka1}/${angka2}=${pengurangan}`);
 }
 
-function perkalian() {
-  const angka1 = prompt("Masukkan angka pertama");
-  const angka2 = prompt("Masukkan angka kedua");
-  const pengurangan = parseint(angka1) * parseInt(angka2);
-  alert(`Pembagian dari ${angka1}*${angka2}=${pengurangan}`);
-}
+
